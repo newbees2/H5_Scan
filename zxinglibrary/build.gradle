@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+
+
+group = 'com.github.yuzhiqiang1993'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 224
+        versionName '2.2.4'
+        vectorDrawables.useSupportLibrary = true
+    }
+
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/core-3.3.3.jar')
+    compileOnly 'com.android.support:appcompat-v7:28.0.0'
+    compileOnly 'com.android.support:design:28.0.0'
+    compileOnly 'com.android.support:support-v4:28.0.0'
+    compileOnly 'com.android.support:support-vector-drawable:28.0.0'
+    // implementation 'com.google.zxing:core:3.3.2'
+}

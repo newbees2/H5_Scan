@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">H5scan</string>
+    <string name="action_settings">Settings</string>
+     <string name="title_activity_my_scan">MyScanActivity</string>
+</resources>
