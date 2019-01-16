@@ -1,6 +1,6 @@
-<h1>H5_Scan</h1><br>
+<h1>H5_Scan项目说明</h1><br>
 H5_Scan实现的功能是通过安卓的webview调用摄像头扫描二维码或条形码并返回扫码结果给webview,开发人员只需编写HTML5页面就能实现扫码功能。
-<br>
+<br><br>
 说明：<br>
 1.请使用android studio打开本项目。<br>
 2.重写了javascript的alert和confirm函数,弹窗界面更美观。 <br>
