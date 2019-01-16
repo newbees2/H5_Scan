@@ -6,13 +6,11 @@
 \<script\> <br>
 function scan() { <br>
      android.doScan();<br>
-}<br><br>
-    
+}<br>    
 function setScanResult(result){<br>
     document.getElementById('result').value = result ;<br>
 }<br>
-\</script\><br><br>
-
+\</script\><br>
 \<input type='text' id='result' placeholder='扫码结果' Value=''\><br>
 \<button onclick='scan();'\>扫码\</button\><br>
 
