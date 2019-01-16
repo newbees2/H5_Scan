@@ -13,9 +13,9 @@ function scan() {
 }
  
 function setScanResult(result){
-     document.getElementById("result").value = result ;    
+     document.getElementById('result').value = result ;    
 }
 </script>
-<input type="text" id="result" placeholder="扫码结果" Value="">
-<button onclick="scan();">扫码</button>
+<input type='text' id='result' placeholder='扫码结果' Value=''>
+<button onclick='scan();'>扫码</button>
 
