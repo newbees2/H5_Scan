@@ -5,10 +5,10 @@
 实例：<br>
 \<script\> <br>
 function scan() { <br>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;android.doScan();<br>
+&ensp;&ensp;&ensp;&ensp;android.doScan();<br>
 }<br>    
 function setScanResult(result){<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;document.getElementById("result").value = result ;<br>
+&ensp;&ensp;&ensp;&ensp;document.getElementById("result").value = result ;<br>
 }<br>
 \</script\><br>
 \<input type="text" id="result" placeholder="扫码结果" Value=""\><br>
